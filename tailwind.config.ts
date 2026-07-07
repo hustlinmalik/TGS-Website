@@ -22,6 +22,12 @@ const config: Config = {
         // Serif to echo the logo's lettering; used for display headings.
         display: ["var(--font-display)", "Georgia", "'Times New Roman'", "serif"],
       },
+      boxShadow: {
+        // Soft layered shadow for cards — subtler than Tailwind's defaults.
+        card: "0 1px 2px rgba(28,25,23,0.06), 0 8px 24px -8px rgba(28,25,23,0.12)",
+        "card-hover":
+          "0 2px 4px rgba(28,25,23,0.08), 0 16px 40px -12px rgba(28,25,23,0.22)",
+      },
     },
   },
   plugins: [],

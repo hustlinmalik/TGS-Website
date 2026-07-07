@@ -10,7 +10,7 @@ export const SITE_URL = "https://www.garagestandardllc.com";
 export const business = {
   name: "The Garage Standard LLC",
   legalName: "The Garage Standard LLC",
-  tagline: "Reclaim Your Garage in One Day",
+  tagline: "Reclaim Your Home in One Day",
   // Specific schema subtype is better for local SEO than generic "LocalBusiness".
   schemaType: "HomeAndConstructionBusiness",
   description:
@@ -19,7 +19,16 @@ export const business = {
   email: "thegaragestandardllc@gmail.com",
   phone: "(410) 774-6002",
   phoneE164: "+14107746002",
-  bookingUrl: "https://thegaragestandardllc.as.me/",
+
+  // Quote requests now go through the on-site form (Web3Forms → your inbox).
+  // All "Free Quote" CTAs link here. The old Acuity page is kept below for reference.
+  quotePath: "/contact#quote",
+  bookingUrl: "https://thegaragestandardllc.as.me/", // legacy Acuity (no longer linked)
+
+  // Web3Forms access key — powers the quote form. Get a free key at
+  // https://web3forms.com (enter thegaragestandardllc@gmail.com, the key arrives
+  // by email). This key is designed to be public, so it's safe to commit.
+  web3formsAccessKey: "378898a0-c02f-4f8b-8373-fa0eac7306ea",
 
   // Brand assets. The badge logo (transparent PNG) lives at /public/logo.png.
   logo: "/logo.png",
@@ -56,7 +65,9 @@ export const business = {
   serviceArea: ["Washington, D.C.", "Maryland", "Virginia"],
 
   social: {
-    // Add real profile URLs when available — they feed schema `sameAs` and trust signals.
+    // Add real profile URLs when available — they feed schema `sameAs`, trust
+    // signals, AND the social icons in the footer / contact page. Icons only
+    // render for non-empty URLs, so it's safe to leave any of these blank.
     google: "", // Google Business Profile URL
     facebook: "",
     instagram: "",

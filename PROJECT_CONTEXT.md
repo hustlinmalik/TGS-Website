@@ -22,7 +22,9 @@ removal, and organization business based in **Columbia, MD**, serving the greate
 
 ### Business facts (source of truth: `src/lib/business.ts`)
 - Phone: **(410) 774-6002** · Email: **thegaragestandardllc@gmail.com**
-- Booking: **Acuity** — https://thegaragestandardllc.as.me/
+- Quotes: **on-site Web3Forms quote form** at `/contact` (emails the inbox; includes an
+  "Add to Google Calendar" link built from the requested date/time). The old Acuity page
+  (https://thegaragestandardllc.as.me/) is no longer linked but kept in `business.ts`.
 - Based in Columbia, MD; serves D.C., Maryland, and Virginia.
 - Family-owned, 3+ years, licensed & insured. Discounts for seniors, people with
   disabilities, and those in need. Donates usable items to Goodwill / Habitat ReStore.
@@ -67,6 +69,9 @@ removal, and organization business based in **Columbia, MD**, serving the greate
 | A blog post | add a file in `content/blog/` |
 | 301 redirects from old URLs | `vercel.json` |
 | Structured data (schema) | `src/components/JsonLd.tsx` |
+| Quote form (fields, time windows, calendar link) | `src/components/QuoteForm.tsx` |
+| Web3Forms access key | `src/lib/business.ts` → `web3formsAccessKey` |
+| Social icons (auto-hide when URL blank) | `src/components/SocialLinks.tsx` (URLs in `business.social`) |
 
 ### Pages that exist
 Home (`/`), Services index + 3 dynamic service pages (`/services`, `/services/[slug]`),
@@ -144,6 +149,9 @@ FAQ (`/faq`), Blog + posts (`/blog`, `/blog/[slug]`), Contact w/ Acuity embed (`
 ## 9. Outstanding TODOs
 
 **Before the site looks complete / before launch:**
+- [ ] **Get a Web3Forms access key** (free at https://web3forms.com, enter the business
+      email) and paste it into `web3formsAccessKey` in `src/lib/business.ts` — the quote
+      form on `/contact` won't send until this is set. Then submit a test request.
 - [x] Logo added at `public/logo.png`. (Optional: add a dedicated `favicon.ico` and a
       1200×630 `og-image.png` social banner.)
 - [ ] Set real **street address + ZIP** in `business.ts` (for LocalBusiness schema / NAP).
@@ -187,3 +195,11 @@ FAQ (`/faq`), Blog + posts (`/blog`, `/blog/[slug]`), Contact w/ Acuity embed (`
    removed per-city pages.
 9. Initialized git, first commit; connected GitHub repo `TGS-Website` and Vercel project.
 10. Added `vercel.json` (301 redirects from the live Squarespace sitemap + security headers).
+11. **July 2026 refresh:** modernized the design (self-hosted Inter + Fraunces via
+    `next/font`, warm off-white background, rounded-2xl cards with soft shadows,
+    pill CTAs, dark-panel CTA section, hero glow + trust chips, mobile hamburger menu);
+    enlarged the header logo; added `SocialLinks` (footer + contact — icons appear once
+    URLs are set in `business.social`); replaced the Acuity embed with an on-site
+    **Web3Forms quote form** (`QuoteForm.tsx`) — all "Free Quote" CTAs now point to
+    `/contact#quote` (`business.quotePath`). The notification email includes a one-click
+    **Google Calendar** event link prefilled from the customer's preferred date/time.

@@ -5,6 +5,8 @@
     { "source": "/scheduling", "destination": "/contact", "permanent": true },
     { "source": "/scheduling-old", "destination": "/contact", "permanent": true },
     { "source": "/book-appointments", "destination": "/contact", "permanent": true },
+    { "source": "/services/garage-organization", "destination": "/services/garage-cleanout", "permanent": true },
+    { "source": "/services/garage-refresh", "destination": "/services/garage-cleanout", "permanent": true },
     { "source": "/sauce-slice", "destination": "/", "permanent": true },
     { "source": "/sofia-pazari", "destination": "/", "permanent": true },
     { "source": "/collette-noll", "destination": "/", "permanent": true }

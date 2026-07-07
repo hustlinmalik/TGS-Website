@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Inter, Fraunces } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -31,9 +32,19 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+// Self-hosted Google Fonts via next/font (zero layout shift, no external request).
+// Inter = clean modern body text; Fraunces = warm serif that echoes the badge logo.
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
+  axes: ["opsz"],
+});
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${fraunces.variable}`}>
       <body>
         <LocalBusinessJsonLd />
         <Header />
