@@ -8,14 +8,8 @@ const nextConfig = {
       { protocol: "https", hostname: "images.squarespace-cdn.com" },
     ],
   },
-  // 301 redirects: add every old Squarespace URL here so rankings/link-equity carry over.
-  // Fill these in from Google Search Console + the old sitemap before launch.
-  async redirects() {
-    return [
-      // Example — replace/extend with your real old → new map:
-      // { source: "/old-scheduling", destination: "/contact", permanent: true },
-    ];
-  },
+  // NOTE: 301 redirects from the old Squarespace URLs live in `vercel.json`
+  // (single source of truth). Add new old→new mappings there.
 };
 
 export default nextConfig;

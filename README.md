@@ -71,9 +71,8 @@ Your content here...
       (feeds schema `sameAs`).
 - [ ] Update `aggregateRating` in `src/lib/reviews.ts` to your true rating/count.
 - [ ] Replace brand colors in `tailwind.config.ts` with your final palette.
-- [ ] Build the **301 redirect map** in `next.config.mjs` from your old Squarespace
-      URLs (pull them from Google Search Console + the old sitemap). Every old URL
-      must 301 to its closest new page so rankings carry over.
+- [x] **301 redirects** from the old Squarespace URLs are set in `vercel.json`
+      (mapped from the live sitemap). Add any further old→new mappings there.
 - [ ] Verify `SITE_URL` in `src/lib/business.ts` matches your production domain.
 
 ---
