@@ -63,6 +63,8 @@ export type ServiceFrontmatter = {
   slug: string;
   order?: number;
   shortDescription: string;
+  // Short bullet points shown on the service cards (home + services index).
+  highlights?: string[];
   priceNote?: string;
   metaTitle?: string;
   metaDescription?: string;

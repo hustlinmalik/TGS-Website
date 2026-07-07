@@ -19,8 +19,9 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", "system-ui", "Arial", "sans-serif"],
-        // Serif to echo the logo's lettering; used for display headings.
-        display: ["var(--font-display)", "Georgia", "'Times New Roman'", "serif"],
+        // Condensed industrial display (Oswald) for headings — echoes the garage/
+        // automotive feel of the badge logo.
+        display: ["var(--font-display)", "'Arial Narrow'", "system-ui", "sans-serif"],
       },
       boxShadow: {
         // Soft layered shadow for cards — subtler than Tailwind's defaults.

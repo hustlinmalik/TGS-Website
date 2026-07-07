@@ -3,6 +3,10 @@ title: House Cleanout
 slug: house-cleanout
 order: 3
 shortDescription: Whole-home cleanouts from top to bottom — ideal for moves, estates, and rentals. We clear out every room so the place is empty and move-ready.
+highlights:
+  - Whole-home clearing, room by room
+  - Ideal for moves, estates & rental turnovers
+  - Left empty and move-ready
 priceNote: Low rates · we'll beat any written quote · free quotes
 metaTitle: House Cleanout & Whole-Home Junk Removal in the DMV
 metaDescription: Whole-home cleanout services across D.C., Maryland & Virginia — clear out every room before a move, for an estate, or a rental turnover. We haul it all away. Free quotes.

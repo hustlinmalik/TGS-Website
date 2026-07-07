@@ -47,7 +47,18 @@ export default async function ServicesIndex() {
               <h2 className="font-display text-xl font-bold text-brand-dark">
                 {s.frontmatter.title}
               </h2>
-              <p className="mt-3 flex-1 text-brand-muted">{s.frontmatter.shortDescription}</p>
+              {s.frontmatter.highlights ? (
+                <ul className="mt-4 flex-1 space-y-2">
+                  {s.frontmatter.highlights.map((h) => (
+                    <li key={h} className="flex gap-2 text-brand-muted">
+                      <span aria-hidden className="mt-1 text-brand-accent">✓</span>
+                      <span>{h}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="mt-3 flex-1 text-brand-muted">{s.frontmatter.shortDescription}</p>
+              )}
               <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
                 <Link
                   href={business.quotePath}

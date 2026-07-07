@@ -3,6 +3,10 @@ title: Residential & Commercial Junk Removal
 slug: junk-removal
 order: 2
 shortDescription: Full-service residential and commercial junk hauling — furniture, appliances, mattresses, electronics, and debris from homes, offices, and job sites. You point, we haul it away.
+highlights:
+  - Residential & commercial jobs, big or small
+  - Furniture, appliances, electronics & debris
+  - We do all the lifting, loading & hauling
 priceNote: Low rates · we'll beat any written quote · free quotes
 metaTitle: Residential & Commercial Junk Removal in the DMV
 metaDescription: Residential and commercial junk removal across D.C., Maryland & Virginia — furniture, appliances, mattresses, electronics, and debris hauled from homes, offices, rentals, and job sites. Free quotes.

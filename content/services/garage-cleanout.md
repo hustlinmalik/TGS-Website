@@ -3,6 +3,10 @@ title: Complete Garage Cleanout
 slug: garage-cleanout
 order: 1
 shortDescription: We remove and haul away everything — old furniture, broken appliances, boxes, and yard equipment — leaving your garage empty and spotless.
+highlights:
+  - Full removal and hauling — you don't lift a finger
+  - Most cleanouts done in a single day
+  - "Add-ons: professional organization & garage refresh"
 priceNote: Low rates · we'll beat any written quote · free quotes
 metaTitle: Garage Cleanout & Junk Removal in the DMV
 metaDescription: Full-service garage cleanout and junk removal across D.C., Maryland & Virginia. Most cleanouts done in one day. Low rates, we'll beat any written quote, free on-site quotes.
