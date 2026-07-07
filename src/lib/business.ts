@@ -30,6 +30,10 @@ export const business = {
   // by email). This key is designed to be public, so it's safe to commit.
   web3formsAccessKey: "378898a0-c02f-4f8b-8373-fa0eac7306ea",
 
+  // Google Analytics 4 measurement ID — powers site traffic tracking.
+  // Loaded via next/script in src/app/layout.tsx.
+  googleAnalyticsId: "G-74PEL4M84F",
+
   // Brand assets. The badge logo (transparent PNG) lives at /public/logo.png.
   logo: "/logo.png",
   // Social share image (Open Graph). The logo works as a fallback; for best results
