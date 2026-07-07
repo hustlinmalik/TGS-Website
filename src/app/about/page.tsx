@@ -6,7 +6,7 @@ import { SITE_URL, business, clientTypes } from "@/lib/business";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "The Garage Standard is a family-owned garage cleanout and organization company serving the DMV for 3+ years. Licensed, insured, and community-oriented.",
+    "The Garage Standard is a family-owned garage cleanout and organization company serving the DMV for 3+ years. Insured and community-oriented.",
   alternates: { canonical: "/about" },
 };
 
@@ -37,8 +37,8 @@ export default function AboutPage() {
             are donated to local centers such as Goodwill and Habitat for Humanity ReStore, and
             everything else is disposed of responsibly and legally.
           </p>
-          <h2>Licensed &amp; insured</h2>
-          <p>We are fully licensed and insured for your protection on every job.</p>
+          <h2>Fully insured</h2>
+          <p>We are fully insured for your protection on every job.</p>
         </div>
 
         <h2 className="mt-12 text-2xl font-bold text-brand-dark">Who We Serve</h2>

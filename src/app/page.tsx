@@ -49,7 +49,7 @@ export default async function HomePage() {
         />
         <div className="relative mx-auto max-w-6xl px-4 py-24 text-center sm:py-28">
           <div className="mx-auto flex flex-wrap items-center justify-center gap-2 text-xs font-medium text-brand-cream/90">
-            {["Licensed & Insured", "Family-Owned", `${business.yearsInBusiness} Years in the DMV`].map(
+            {["Fully Insured", "Family-Owned", `${business.yearsInBusiness} Years in the DMV`].map(
               (chip) => (
                 <span key={chip} className="rounded-full border border-white/20 bg-white/5 px-3 py-1.5">
                   {chip}

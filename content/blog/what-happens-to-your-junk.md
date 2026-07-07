@@ -21,4 +21,4 @@ Items that can't be donated are recycled where possible or disposed of legally a
 
 ## Why it matters
 
-Choosing a licensed, insured company that disposes of material the right way protects you and the environment. With The Garage Standard, you get a clean garage and the peace of mind that your old belongings were handled the right way.
+Choosing a reputable, insured company that disposes of material the right way protects you and the environment. With The Garage Standard, you get a clean garage and the peace of mind that your old belongings were handled the right way.

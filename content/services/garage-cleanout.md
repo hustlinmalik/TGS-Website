@@ -45,4 +45,4 @@ Just ask when you request your quote and we'll price it into the job.
 
 ## Why homeowners choose us
 
-Family-owned, licensed and insured, with evening and weekend scheduling. Discounts for seniors, people with disabilities, and those in need.
+Family-owned and fully insured, with evening and weekend scheduling. Discounts for seniors, people with disabilities, and those in need.

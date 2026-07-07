@@ -7,7 +7,7 @@ import { faqs } from "@/lib/faq";
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description:
-    "Answers to common questions about garage cleanout cost, timing, what happens to your items, service areas, and licensing.",
+    "Answers to common questions about garage cleanout cost, timing, what happens to your items, service areas, and insurance.",
   alternates: { canonical: "/faq" },
 };
 

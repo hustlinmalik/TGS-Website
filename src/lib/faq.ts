@@ -39,7 +39,7 @@ export const faqs: FaqItem[] = [
       "We serve all of Washington D.C., Maryland, and Virginia — the greater DMV area.",
   },
   {
-    question: "Are you licensed and insured?",
-    answer: "Yes — we are fully licensed and insured for your protection.",
+    question: "Are you insured?",
+    answer: "Yes — we are fully insured for your protection.",
   },
 ];
