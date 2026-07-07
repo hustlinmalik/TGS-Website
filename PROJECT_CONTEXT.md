@@ -95,10 +95,9 @@ FAQ (`/faq`), Blog + posts (`/blog`, `/blog/[slug]`), Contact w/ Acuity embed (`
 
 ## 6. Branding
 
-- **Logo:** vintage black badge with cream "THE GARAGE STANDARD" lettering.
-  **Must be placed at `public/logo.png`** (see `public/ADD-LOGO-HERE.md`). It's wired into
-  the header, LocalBusiness schema, and social-share preview — appears automatically once
-  the file exists.
+- **Logo:** vintage black badge with cream "THE GARAGE STANDARD" lettering. The real
+  transparent PNG is in place at `public/logo.png` (path set by `logo` in `business.ts`).
+  Wired into the header, LocalBusiness schema, and social-share preview.
 - **Palette** (in `tailwind.config.ts`), built around the logo:
   - `brand.dark` `#1C1917` (warm near-black) — primary
   - `brand.cream` `#E8DFCB` — logo lettering / on-dark text
@@ -145,7 +144,8 @@ FAQ (`/faq`), Blog + posts (`/blog`, `/blog/[slug]`), Contact w/ Acuity embed (`
 ## 9. Outstanding TODOs
 
 **Before the site looks complete / before launch:**
-- [ ] Add `public/logo.png` (and optionally `favicon.ico`, a 1200×630 `og-image.png`).
+- [x] Logo added at `public/logo.png`. (Optional: add a dedicated `favicon.ico` and a
+      1200×630 `og-image.png` social banner.)
 - [ ] Set real **street address + ZIP** in `business.ts` (for LocalBusiness schema / NAP).
 - [ ] Confirm business **hours** in `business.ts`.
 - [ ] Add real **Google Business Profile + social URLs** in `business.social` (schema `sameAs`).

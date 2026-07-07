@@ -21,12 +21,11 @@ export const business = {
   phoneE164: "+14107746002",
   bookingUrl: "https://thegaragestandardllc.as.me/",
 
-  // Brand assets. Currently an SVG recreation of the badge at /public/logo.svg.
-  // To use your exact raster logo, drop it in /public and point this at it (e.g. "/logo.png").
-  logo: "/logo.svg",
-  // Social share image (Open Graph). NOTE: most social platforms don't render SVG,
-  // so add a raster /public/og-image.png (1200×630) and point this at it before launch.
-  ogImage: "/logo.svg",
+  // Brand assets. The badge logo (transparent PNG) lives at /public/logo.png.
+  logo: "/logo.png",
+  // Social share image (Open Graph). The logo works as a fallback; for best results
+  // add a 1200×630 banner at /public/og-image.png and point this at it before launch.
+  ogImage: "/logo.png",
 
   // Pricing message — we do NOT publish flat prices. Edit these to change the
   // wording everywhere it appears.

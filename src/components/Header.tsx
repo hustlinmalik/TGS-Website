@@ -6,8 +6,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-black/10 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
         <Link href="/" className="flex items-center" aria-label={`${business.name} — home`}>
-          {/* Logo lives at /public/logo.svg. Swap in a real PNG anytime and update
-              `logo` in src/lib/business.ts. Plain <img> avoids Next's SVG optimizer. */}
+          {/* Logo path is set by `logo` in src/lib/business.ts (/public/logo.png). */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={business.logo} alt={`${business.name} logo`} className="h-12 w-auto" />
         </Link>

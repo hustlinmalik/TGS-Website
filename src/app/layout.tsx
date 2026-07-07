@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: business.description,
     images: [business.ogImage],
   },
-  icons: { icon: "/logo.svg" },
+  icons: { icon: "/logo.png" },
   robots: { index: true, follow: true },
 };
 
