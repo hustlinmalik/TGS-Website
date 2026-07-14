@@ -58,7 +58,7 @@ export default async function HomePage() {
             )}
           </div>
           <h1 className="mx-auto mt-6 max-w-3xl font-display text-4xl font-bold tracking-tight text-brand-cream sm:text-6xl">
-            Reclaim Your Space!
+            Reclaim Your Space
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-white/85">
             Professional garage cleanout and junk removal services serving all of Washington

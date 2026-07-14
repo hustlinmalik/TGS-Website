@@ -10,7 +10,7 @@ export const SITE_URL = "https://www.garagestandardllc.com";
 export const business = {
   name: "The Garage Standard LLC",
   legalName: "The Garage Standard LLC",
-  tagline: "Reclaim Your Space!",
+  tagline: "Reclaim Your Space",
   // Specific schema subtype is better for local SEO than generic "LocalBusiness".
   schemaType: "HomeAndConstructionBusiness",
   description:
